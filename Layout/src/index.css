@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply font-montserrat;
+  }
+
+
+  /* styles.css */
+.text-slider {
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: transform 0.7s ease-in-out;
+  }
+  
+  .text-slider p {
+    height: 200px;
+    line-height: 200px; /* Center text vertically */
+    margin: 0;
+  }
+  
